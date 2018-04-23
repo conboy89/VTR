@@ -1,0 +1,157 @@
+body{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* header css starts */
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: yellow;
+}
+
+nav{
+	height: 50px;
+	margin-top: 30px;
+}
+
+nav ul li{
+	display: inline;
+	text-decoration: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+#socialmedia{
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+}
+
+.socialicons{
+	width: 72px;
+	float: right;
+}
+
+.socialicons ul{
+	display: inline;
+	
+}
+
+.socialicons ul li{
+	display: inline;
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	float: left;
+	padding-right: 4px;
+}
+
+.socialicons ul li a{
+	text-decoration: none;
+}
+
+/* header css ends */
+
+/* main container css starts */
+
+#maincontainer{
+	height: 1000px;
+	width: 100%;
+	background-color: grey;
+}
+
+.mainslider{
+	width: 100%;
+	height: 300px;
+	background-color: green;
+}
+
+.tiles{
+	width: 940px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	padding: 10px 0 10px 0;
+	
+}
+
+.tile1{
+	width: 300px;
+	height: 200px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+
+.tile2{
+	width: 300px;
+	height: 200px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+
+.tile3{
+	width: 300px;
+	height: 100px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+
+.tile4{
+	width: 300px;
+	height: 100px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+
+.tile5{
+	width: 620px;
+	height: 100px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: yellow;
+}
+
+.twitter{
+	height: 300px;
+	width: 300px;
+	background-color: green;
+}
+
+/* main contrainer css ends */
+
+/* footer css starts */
+
+footer{
+	height: 200px;
+	background-color: #000;
+}
+
+footer ul li {
+	color: #fff;
+}
+
+.footicons{
+	float: right;
+	display: inline;
+}
+
+footer p{
+	color: #fff;
+}
+
+/* footer css ends */
