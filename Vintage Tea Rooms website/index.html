@@ -7,100 +7,164 @@
 		<meta name="description" content="Blank website template">
 		<meta name="keywords" content="HTML, CSS, JavaScript, XML">
 		<meta name="author" content="Conor Dunphy">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/resetstylesheet.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/twitterfeed.js"></script>
+		<script src="js/burgermenu.js"></script>
+        
 	</head>
 	<body>
 		<header>
-			<div id="socialmedia">
+			<div id="socialmedia" class="clear-fix">
 				<div class="socialicons">
 					<ul>
-						<li><a href="#" target="">FB</a></li>
-						<li><a href="#" target="">TR</a></li>
-						<li><a href="#" target="">IN</a></li>
-						<li><a href="#" target="">TA</a></li>
+						<li><a href="#" target="_blank"><img src="images/FB_social" alt="facebook logo"></a></li>
+						<li><a href="#" target="_blank"></a><img src="images/TWITTER_social.png" alt="twitter logo"></li>
+						<li><a href="#" target="_blank"></a><img src="images/INSTA_social.png" alt="instagram logo"></li>
+						<li><a href="#" target="_blank"><img src="images/TRIP_social.png" alt="trip advisor logo"></a></li>
 					</ul>
 				</div>
 			</div>
-		<nav>
-			<ul>
-				<li><a href="">HOME</a></li>
-				<li><a href="">MENU</a></li>
-				<li><a href="">EVENTS</a></li>
-				<li><a href="">FACILITIES</a></li>
-				<li><a href="">GALLERY</a></li>
-				<li><a href="">SHOP</a></li>
-			</ul>
-		</nav>
+			<div class="logo-container">
+				<div class="logo">
+					<img src="images/logo2.png" alt="company logo">
+				</div>
+				<div class="menu-button">
+					
+                    <div class="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+				</div>
+				
+			</div>
+			<nav>
+				<ul>
+					<li><a class="active" href="index.html">HOME</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="events.html">EVENTS</a></li>
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+				</ul>
+			</nav>
 		</header>
-		
+		<div></div>
 		<div id="maincontainer">
-		
-			<div class="mainslider">
-				<a href="#"><img src="" alt="">SLIDE 1</a>
-			</div>
-		
-			<p>
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-			</p>
+                
+            
+        <!-- Start // .slider -->
 			
-			<div class="secondcontainer">
-			<div class="tiles">
+            <div class="slider">
 			
-				<div class="tile1">
-				<a href="#"><img src="" alt="">SPECIAL OF THE DAY</a>
-				</div>
+                  <div class="slide_viewer">
+                    <div class="slide_group">
+                      <div class="slide"><img src="images/slider/slider1.jpg" alt="slide 1">
+                      </div>
+                      <div class="slide"><img src="images/slider/slider2.jpg" alt="slide 2">
+                      </div>
+                      <div class="slide"><img src="images/slider/slider3.jpg" alt="slide 3">
+                      </div>
+                      <div class="slide"><img src="images/slider/slider4.jpg" alt="slide 4">
+                      </div>
+                    </div>
+                  </div>
 				
-				<div class="tile2">
-				<a href="#"><img src="" alt="">BOOK OF THE MONTH</a>
-				</div>
-				
-				<div class="tile3">
-				<a href="#"><img src="" alt="">CONTACT US</a>
-				</div>
-				
-				<div class="tile4">
-				<a href="#"><img src="" alt="">TRIP ADVISOR</a>
-				</div>
-				
-				<div class="tile5">
-				<a href="#"><img src="" alt="">NEWSLETTER</a>
-				</div>
-				
-			</div>
+            </div>
+			
+            <div class="slide_buttons">
+            </div>
 
-			<div class="twitter">
-				
-			</div>
-			</div>
-			
-		</div>
+            <div class="directional_nav">  
+              
+            </div>
+		<!-- End // .slider -->
+        </div>
 		
-		
+			<div class="cafe_info">
+				<p>
+					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+				</p>
+			</div>
+                <div class="items-container clear-fix">
+                    <div class="tiles">
+
+                        <div class="tile1">
+                        <a href="#">SPECIAL OF THE DAY</a>
+                        </div>
+
+                        <div class="tile2">
+                        <a href="#">BOOK OF THE MONTH</a>
+                        </div>
+
+                        <div class="tile3">
+                        <a href="#">CONTACT US</a>
+                        </div>
+
+                        <div class="tile4">
+                        <a href="#"></a>
+                        </div>
+
+                        <div class="tile5">
+                        <a href="#">NEWSLETTER</a>
+                        </div>
+
+                    </div>
+
+            <div class="twitter">
+
+                <div class="news-feed-outer">
+                    <div class="news-feed-inner">
+                        <div class="feed-item">
+                            <h2>Welcome to VINTAGE TEA ROOMS</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                        </div>
+                        <div class="feed-item">
+                            <h2>Check out this weeks offers</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                        </div>
+                        <div class="feed-item">
+                            <h2>Have you read the latest Stephen King book?</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                        </div>
+                        <div class="feed-item">
+                            <h2>Can't beat a cup of black tea </h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                        </div>
+                    </div>
+                </div>             
+                       
+            </div>
+
+                </div>
 		
 		<footer>
+			<div class="footmenu">
 			<ul>
-				<li><a href="#"></a>HOME</li>
-				<li><a href="#"></a>MENU</li>
-				<li><a href="#"></a>EVENTS</li>
-				<li><a href="#"></a>FACILITIES</li>
-				<li><a href="#"></a>GALLERY</li>
-				<li><a href="#"></a>SHOP</li>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="events.html">EVENTS</a></li>
+				<li><a href="facilities.html">FACILITIES</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
 			</ul>
-			<div class="footinfo">
+			</div>
 				
 			<div class="footicons">	
-				<p>
-				CONTACT US:
-				</p>
+				
 				<ul>
-					<li><a href=""><img src="" alt=""></a>FB</li>
-					<li><a href=""><img src="" alt=""></a>TR</li>
-					<li><a href=""><img src="" alt=""></a>IN</li>
-					<li><a href=""><img src="" alt=""></a>TA</li>
+						<li>CONTACT US: <a href="#" target="_blank"><img src="images/FB_social" alt="facebook logo"></a></li>
+						<li><a href="#" target="_blank"></a><img src="images/TWITTER_social.png" alt="twitter logo"></li>
+						<li><a href="#" target="_blank"></a><img src="images/INSTA_social.png" alt="social logo"></li>
+						<li><a href="#" target="_blank"><img src="images/TRIP_social.png" alt="instagram logo"></a></li>
 				</ul>
 			</div>	
-			</div>
-		</footer>
+			
+		</footer>   
+              
 	</body>
 
 
